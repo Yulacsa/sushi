@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: rgb(84, 84, 84);
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(46, 46, 46);
+}
+
+.logg {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log {
+    width: 90%;
+}
+
+.logo {
+    width: 60%;
+}
+
+.as {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.aa {
+    margin-right: 30px;
+    font-size: larger;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(84, 84, 84);
+    margin-bottom: 100px;
+}
+
+.im {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+.shop {
+    width: 100%;
+    height: 700px;
+    margin-top: 200px;
+}
+
+
+#menu {
+    width: 100%;
+}
+
+#menu>.m>h1 {
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 3px 3px 2px rgba(82, 0, 0, 0.877);
+}
+
+.nnnn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.me {
+    width: 810px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.gm {
+    background-color: rgba(247, 232, 232, 0.831);
+    width: 250px;
+    height: 300px;
+    box-shadow: 1px 1px 5px 1px gainsboro;
+
+}
+
+.gm>img {
+    width: 90%;
+    margin: 5%;
+}
+
+.gm>p {
+    margin: 5%;
+}
+
+.gm>h4 {
+    text-align: center;
+    margin: 5%;
+}
+
+
+#cont {
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    height: 100px;
+}
+
+.con1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.con2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
